@@ -7,7 +7,7 @@ const blogRoutes = require('./routes/blogRoutes');
 // express app
 const app = express();
 
-const dbURI = 'mongodb+srv://Shivam164:$aymyname1@learnnode.bwjg1.mongodb.net/learnNode?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://Shivam164:___________@learnnode.bwjg1.mongodb.net/learnNode?retryWrites=true&w=majority'; // at the place of ______ there will be password to db
 mongoose.connect(dbURI)
   .then((result) => {
     app.listen(3000);
